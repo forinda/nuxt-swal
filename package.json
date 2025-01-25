@@ -75,7 +75,7 @@
   "author": "Felix Orinda",
   "publishConfig": {
     "access": "public",
-    "registry": "https://registry.npmjs.org/",
+    "registry": "https://npm.pkg.github.com",
     "tag": "latest"
   }
 }
