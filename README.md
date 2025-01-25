@@ -38,32 +38,33 @@ npx nuxi module add @nuxt/swal
 That's it! You can now use @nuxt/swal in your Nuxt app ✨
 
 Add `@nuxt/swal` to modules section of `nuxt.config.js` if not there
+
 ```ts
 {
-  modules: [
-    '@nuxt/swal'
-  ]
+  modules: ['@nuxt/swal']
 }
 ```
 
 # Usage
 
 <details>
-<summary>
-How to use the package
-</summary>
-</details>
+  <summary>How to use the package</summary>
+
 In composition API we have these two properties
- - `$swal` - A Swal instance
- - `$swal_mx` - A Swal Mixin instance
+
+- `$swal` - A Swal instance
+- `$swal_mx` - A Swal Mixin instance
 
 When using Options API all the properties injected in the app will be available plus other options
- - `$swal`/`$_swal` - A Swal instance
- - `$swal_mx`/`$_swal_mx` - A Swal Mixin instance
+
+- `$swal`/`$_swal` - A Swal instance
+- `$swal_mx`/`$_swal_mx` - A Swal Mixin instance
 
 All the bove provide sweet alert popups and for more on how to use the sweet alert you can reference
 [Sweet Alert 2 Docs](https://sweetalert2.github.io/)
-### Composition API
+
+## Composition API
+
 ```vue
 <template>
   <sw-swal-pop
@@ -96,6 +97,7 @@ const sendMessage = (message: string) => {
 ```
 
 ## Options API
+
 ```vue
 <script lang="ts">
 import { defineComponent } from 'vue'
@@ -140,9 +142,12 @@ export default defineComponent({
 </style>
 ```
 
+</details>
+
 ## Contribution
 
 <details>
+  
   <summary>Local development</summary>
   
   ```bash
@@ -170,7 +175,6 @@ export default defineComponent({
   ```
 
 </details>
-
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/@nuxt/swal/latest.svg?style=flat&colorA=020420&colorB=00DC82
