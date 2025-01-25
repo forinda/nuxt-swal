@@ -2,6 +2,7 @@ import type { FunctionalComponent } from 'vue'
 
 type SwalPopupProps = {
   message: string
+  class?: string
 }
 
 type Events = {
@@ -13,10 +14,11 @@ const SwalPopComponent: FunctionalComponent<SwalPopupProps, Events> = (
   context,
 ) => {
   return (
-    <button onClick={() => context.emit('sendMessage', props.message)}>
+    <button
+      class={props.class}
+      onClick={() => context.emit('sendMessage', props.message)}
+    >
       {props.message}
-      {' '}
-      {' '}
     </button>
   )
 }
@@ -26,6 +28,11 @@ SwalPopComponent.props = {
     type: String,
     required: true,
     default: 'Hello World!',
+  },
+  class: {
+    type: String,
+    default: '',
+    required: false,
   },
 }
 

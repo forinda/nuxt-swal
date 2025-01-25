@@ -1,9 +1,12 @@
 export default defineNuxtConfig({
 
-  modules: ['../src/module'],
-  devtools: { enabled: true },
-  compatibilityDate: '2025-01-25',
-  nuxtSwal: {
+  'compatibilityDate': '2025-01-25',
+  'devtools': { enabled: true },
+  'modules': [
+    '../src/module',
+    '@nuxtjs/tailwindcss',
+  ],
+  'nuxt-swal': {
     componentPrefix: 'sw',
   },
 })
