@@ -2,7 +2,14 @@
   "name": "@nuxt/swal",
   "version": "1.0.0",
   "description": "A sweet alert module for Nuxt",
-  "repository": "your-org/@nuxt/swal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forinda/nuxt-swal"
+  },
+  "bugs": {
+    "url": "https://github.com/forinda/nuxt-swal/issues"
+  },
+  "homepage": "https://github.com/forinda/nuxt-swal#readme",
   "license": "MIT",
   "type": "module",
   "exports": {
@@ -48,5 +55,21 @@
   },
   "peerDependencies": {
     "sweetalert2": "^11.15.10"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "nofications",
+    "typescript",
+    "vue",
+    "sweetalert",
+    "sweetalert2",
+    "notification",
+    "nuxt-module",
+    "vue3",
+    "nuxt-ui",
+    "nuxt3"
+  ],
+  "author": "Felix Orinda"
 }
