@@ -1,7 +1,8 @@
 {
   "name": "@nuxt/swal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A sweet alert module for Nuxt",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/forinda/nuxt-swal"
