@@ -1,11 +1,11 @@
 {
   "name": "@nuxt/swal",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A sweet alert module for Nuxt",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/forinda/nuxt-swal"
+    "url": "git+https://github.com/forinda/nuxt-swal.git"
   },
   "bugs": {
     "url": "https://github.com/forinda/nuxt-swal/issues"
@@ -74,6 +74,8 @@
   ],
   "author": "Felix Orinda",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
   }
 }
