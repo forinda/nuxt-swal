@@ -2,7 +2,7 @@ import swal from 'sweetalert2'
 import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin((app) => {
-  console.log('[Plugin @nuxt/swal]: successfully registered')
+  console.log('[Plugin nuxt-swal]: successfully registered')
   const sw = {
     def: swal,
     mx: swal.mixin({

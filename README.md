@@ -2,22 +2,22 @@
 Get your module up and running quickly.
 
 Find and replace all on all files (CMD+SHIFT+F):
-- Name: @nuxt/swal
-- Package name: @nuxt/swal
-- Description: @nuxt/swal is a sweetalert2 plugin for nuxtjs
+- Name: nuxt-swal
+- Package name: nuxt-swal
+- Description: nuxt-swal is a sweetalert2 plugin for nuxtjs
 -->
 
-# @nuxt/swal
+# nuxt-swal
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-`@nuxt/swal` Is an extension on use of sweat alert for displaying notifications on nuxt applications
+`nuxt-swal` Is an extension on use of sweat alert for displaying notifications on nuxt applications
 
 [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/@nuxt/swal?file=playground%2Fapp.vue) -->
+<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-swal?file=playground%2Fapp.vue) -->
 <!-- - [📖 &nbsp;Documentation](https://example.com) -->
 
 ## Features
@@ -32,16 +32,16 @@ Find and replace all on all files (CMD+SHIFT+F):
 Install the module to your Nuxt application with one command:
 
 ```bash
-npx nuxi module add @nuxt/swal
+npx nuxi module add nuxt-swal
 ```
 
-That's it! You can now use @nuxt/swal in your Nuxt app ✨
+That's it! You can now use nuxt-swal in your Nuxt app ✨
 
-Add `@nuxt/swal` to modules section of `nuxt.config.js` if not there
+Add `nuxt-swal` to modules section of `nuxt.config.js` if not there
 
 ```ts
 {
-  modules: ['@nuxt/swal']
+  modules: ['nuxt-swal']
 }
 ```
 
@@ -177,14 +177,14 @@ export default defineComponent({
 </details>
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt/swal/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/@nuxt/swal
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-swal/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/nuxt-swal
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/@nuxt/swal.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/@nuxt/swal
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt-swal.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/nuxt-swal
 
-[license-src]: https://img.shields.io/npm/l/@nuxt/swal.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/@nuxt/swal
+[license-src]: https://img.shields.io/npm/l/nuxt-swal.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/nuxt-swal
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
 [nuxt-href]: https://nuxt.com

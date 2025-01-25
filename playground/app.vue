@@ -5,7 +5,7 @@
         Vue 3 Playground with TypeScript and Nuxt.js
       </h1>
       <p class="text-lg text-gray-700 mb-6">
-        Explore the power of <code class="px-2 py-1 bg-gray-200 rounded"> @nuxt/swal </code>
+        Explore the power of <code class="px-2 py-1 bg-gray-200 rounded"> nuxt-swal </code>
         using the Composition API and Options API.
       </p>
     </div>

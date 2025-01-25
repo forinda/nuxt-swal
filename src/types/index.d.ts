@@ -5,7 +5,7 @@ type SwalType = typeof Swal
 type SwalInstance = ReturnType<typeof Swal.mixin>
 
 // type SwalInstance = InstanceType
-declare module '@nuxt/swal' {
+declare module 'nuxt-swal' {
   export interface SwalPopupProps {
     message: string
   }

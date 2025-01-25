@@ -4,8 +4,8 @@ import type { NuxtSwalModuleOptions } from './types'
 // Module options TypeScript interface definition
 export default defineNuxtModule<NuxtSwalModuleOptions>({
   meta: {
-    name: '@nuxt/swal',
-    configKey: '@nuxt/swal',
+    name: 'nuxt-swal',
+    configKey: 'nuxt-swal',
   },
   // Default configuration options of the Nuxt module
   defaults: {
@@ -22,7 +22,7 @@ export default defineNuxtModule<NuxtSwalModuleOptions>({
       global: true,
 
     })
-    _app.options.alias['@nuxt/swal'] = resolver.resolve('./runtime')
+    _app.options.alias['nuxt-swal'] = resolver.resolve('./runtime')
     _app.options.css.push('sweetalert2/dist/sweetalert2.min.css')
   },
 })
