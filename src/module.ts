@@ -1,17 +1,11 @@
 import { defineNuxtModule, addPlugin, createResolver, addComponentsDir } from '@nuxt/kit'
-import * as swal from 'sweetalert2'
+import type { NuxtSwalModuleOptions } from './types'
 
 // Module options TypeScript interface definition
-export interface ModuleOptions {
-  componentPrefix?: string
-  // autoImport?: boolean
-}
-// swal.default.mixin({
-
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule<NuxtSwalModuleOptions>({
   meta: {
     name: '@nuxt/swal',
-    configKey: 'nuxt-swal',
+    configKey: '@nuxt/swal',
   },
   // Default configuration options of the Nuxt module
   defaults: {
