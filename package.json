@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/swal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sweet alert module for Nuxt",
   "private": false,
   "repository": {
