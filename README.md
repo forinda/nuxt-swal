@@ -4,7 +4,7 @@ Get your module up and running quickly.
 Find and replace all on all files (CMD+SHIFT+F):
 - Name: @nuxt/swal
 - Package name: @nuxt/swal
-- Description: My new Nuxt module
+- Description: @nuxt/swal is a sweetalert2 plugin for nuxtjs
 -->
 
 # @nuxt/swal
@@ -37,55 +37,32 @@ npx nuxi module add @nuxt/swal
 
 That's it! You can now use @nuxt/swal in your Nuxt app ✨
 
-
-## Contribution
-
-<details>
-  <summary>Local development</summary>
-  
-  ```bash
-  # Install dependencies
-  npm install
-  
-  # Generate type stubs
-  npm run dev:prepare
-  
-  # Develop with the playground
-  npm run dev
-  
-  # Build the playground
-  npm run dev:build
-  
-  # Run ESLint
-  npm run lint
-  
-  # Run Vitest
-  npm run test
-  npm run test:watch
-  
-  # Release new version
-  npm run release
-  ```
-
-</details>
-
-
-<!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/@nuxt/swal/latest.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-version-href]: https://npmjs.com/package/@nuxt/swal
-
-[npm-downloads-src]: https://img.shields.io/npm/dm/@nuxt/swal.svg?style=flat&colorA=020420&colorB=00DC82
-[npm-downloads-href]: https://npm.chart.dev/@nuxt/swal
-
-[license-src]: https://img.shields.io/npm/l/@nuxt/swal.svg?style=flat&colorA=020420&colorB=00DC82
-[license-href]: https://npmjs.com/package/@nuxt/swal
-
-[nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
-[nuxt-href]: https://nuxt.com
-
+Add `@nuxt/swal` to modules section of `nuxt.config.js` if not there
+```ts
+{
+  modules: [
+    '@nuxt/swal'
+  ]
+}
+```
 
 # Usage
 
+<details>
+<summary>
+How to use the package
+</summary>
+</details>
+In composition API we have these two properties
+ - `$swal` - A Swal instance
+ - `$swal_mx` - A Swal Mixin instance
+
+When using Options API all the properties injected in the app will be available plus other options
+ - `$swal`/`$_swal` - A Swal instance
+ - `$swal_mx`/`$_swal_mx` - A Swal Mixin instance
+
+All the bove provide sweet alert popups and for more on how to use the sweet alert you can reference
+[Sweet Alert 2 Docs](https://sweetalert2.github.io/)
 ### Composition API
 ```vue
 <template>
@@ -162,3 +139,48 @@ export default defineComponent({
 
 </style>
 ```
+
+## Contribution
+
+<details>
+  <summary>Local development</summary>
+  
+  ```bash
+  # Install dependencies
+  npm install
+  
+  # Generate type stubs
+  npm run dev:prepare
+  
+  # Develop with the playground
+  npm run dev
+  
+  # Build the playground
+  npm run dev:build
+  
+  # Run ESLint
+  npm run lint
+  
+  # Run Vitest
+  npm run test
+  npm run test:watch
+  
+  # Release new version
+  npm run release
+  ```
+
+</details>
+
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/@nuxt/swal/latest.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-version-href]: https://npmjs.com/package/@nuxt/swal
+
+[npm-downloads-src]: https://img.shields.io/npm/dm/@nuxt/swal.svg?style=flat&colorA=020420&colorB=00DC82
+[npm-downloads-href]: https://npm.chart.dev/@nuxt/swal
+
+[license-src]: https://img.shields.io/npm/l/@nuxt/swal.svg?style=flat&colorA=020420&colorB=00DC82
+[license-href]: https://npmjs.com/package/@nuxt/swal
+
+[nuxt-src]: https://img.shields.io/badge/Nuxt-020420?logo=nuxt.js
+[nuxt-href]: https://nuxt.com
