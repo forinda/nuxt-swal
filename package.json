@@ -2,7 +2,7 @@
   "name": "@nuxt/swal",
   "version": "1.0.0",
   "description": "A sweet alert module for Nuxt",
-  "repository": "your-org/my-module",
+  "repository": "your-org/@nuxt/swal",
   "license": "MIT",
   "type": "module",
   "exports": {
