@@ -1,6 +1,6 @@
 {
   "name": "@nuxt/swal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A sweet alert module for Nuxt",
   "private": false,
   "repository": {
@@ -72,5 +72,8 @@
     "nuxt-ui",
     "nuxt3"
   ],
-  "author": "Felix Orinda"
+  "author": "Felix Orinda",
+  "publishConfig": {
+    "access": "public"
+  }
 }
